@@ -36,7 +36,7 @@ border: 1px solid #fff;
     min-height: 100vh;
     margin: 0 auto;
     background: url(./backgroundmp.jpg) repeat center center fixed;
-    background-size: cover;
+    background-size: contain;
 }
 
 .content ul {
