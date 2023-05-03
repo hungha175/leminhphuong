@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lê Minh Phương</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <main>
+        <div class="landing-page">
+            <div class="header">
+                <img class="avatar" src="./minhphuong1.jpg" alt="">
+                <h1>Lê Minh Phương</h1>
+            </div>
+            <div class="content">
+                <ul>
+                    <li>
+                        <a onclick="button1()">My porfolio</a>
+                    </li>
+                    <div id="myDIV" style="display: none;">
+                        <video width="334" height="200" controls>
+                            <source src="./porfolio.mp4" type="video/mp4">
+                            Your browser does not support the video tag.
+                        </video>
+                    </div>
+                    <li>
+                        <a href="https://www.facebook.com/profile.php?id=100027322300111">
+                            <img src="./facebook.svg" alt="Facebook" width="30">Facebook
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://l.facebook.com/l.php?u=https%3A%2F%2Finstagram.com%2Fmifu_le%3Figshid%3DMWQ2ODkyMjM%253D%26fbclid%3DIwAR02YaWbp0cfu9zgZONvy-r4KPJG4rprEUWBPPzR7YLP12VNZJW3zk6E58o&h=AT0HcQWxwHZHv0EWpClg0ErS2079GmHBD5v2DJer69b4-iWzQLR5F2FGyyI6-fsLCOr03aNt3VpTCY4b35XJF9_O_QC3DUog2yqjaTxjDLpkW_UrquU3gRzXvJ0GpKBlEKSAAw">
+                            <img src="./instagram.svg" alt="Instagram" width="30">Instagram
+                        </a>
+                    </li>
+                    <li>
+                        <a href="">
+                            <img src="./linkedin.svg" alt="LinkedIn" width="30">LinkedIn
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </main>
+</body>
+<script>
+    function button1() {
+    var x = document.getElementById("myDIV");
+    if (x.style.display === "none") {
+        x.style.display = "block";
+    } else {
+        x.style.display = "none";
+    }
+}
+</script>
+</html>
