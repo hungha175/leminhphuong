@@ -35,8 +35,8 @@ border: 1px solid #fff;
     max-width: 414px;
     min-height: 100vh;
     margin: 0 auto;
-    background: url(./backgroundmp.jpg) no-repeat center center fixed;
-    background-size: contain;
+    background: url(./backgroundmp.jpg) no-repeat center;
+    background-size: cover;
 }
 
 .content ul {
